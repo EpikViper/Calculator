@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    border: '20px solid black';
+}
+
+/* .operators, 
+.r1,
+.r2,
+.r3 {
+    flex: 1;
+    margin: -10px;
+} */
+
+button {
+    height: 200px;
+    width: 200px;
+    font-size: 64px;
+    box-sizing: border-box;
+}
+
+.display {
+    font-size: 64px;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    width: 812.01px;
+    background-color: orange;
+    margin-bottom: 10px;
+    border-color: black;
+    flex: 1;
+    align-items: center;
+}
+
+.display p {
+    margin-right: 10px;
+}
